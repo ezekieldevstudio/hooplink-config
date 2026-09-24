@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "faq-001",
+      "category": "문의",
+      "question": "Hooplink 관련 문의는 어디로 보내나요?",
+      "answer": "ezekieldevstudio@gmail.com으로 문의해 주세요. 문제 상황과 사용 중인 앱 버전, 기기 종류를 알려주시면 도움이 됩니다. 비밀번호나 로그인 인증 코드는 보내지 마세요.",
+      "order": 1,
+      "enabled": true
+    }
+  ]
+}
