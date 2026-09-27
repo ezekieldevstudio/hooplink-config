@@ -28,3 +28,13 @@ main 브랜치에 게시한 파일은 다음 주소로 읽을 수 있습니다.
 - GitHub Pages가 필요하면 Settings → Pages에서 main / (root)를 게시 소스로 설정합니다. 현재 Pages 배포는 설정하지 않았습니다.
 
 비밀키, 인증 토큰, JKS, signing.properties, keys 폴더 및 사용자 개인정보를 이 공개 저장소에 추가하지 않습니다.
+
+## 웹 Viewer 배포
+
+기존 main / (root) Pages 설정을 유지합니다. HoopLink의 `npm run export:web` 실행 후 dist/index.html, dist/expo/, dist/assets/, dist/favicon.ico만 이 저장소의 viewer/ 아래에 배치합니다. 루트의 config.json, faq.json, notices.json, privacy-policy.html은 이동하거나 덮어쓰지 않습니다.
+
+Viewer는 기존 Expo viewer.tsx를 사용합니다. 웹 경로 기준은 /hooplink-config/viewer이며, export 명령은 Jekyll에서 제공할 수 있도록 생성된 _expo 폴더와 참조를 expo로 바꿉니다. 루트 .nojekyll은 필요하지 않습니다.
+
+Viewer 주소: https://ezekieldevstudio.github.io/hooplink-config/viewer/?gameId=<UUID>
+
+현재 Viewer는 로컬 배포 준비 상태이며 commit/push 전에는 공개되지 않습니다. 게시 후 직접 진입·새로고침·Supabase 참가를 확인합니다. 기존 JSON 변경은 배포 커밋에 임의 포함하지 않습니다.
