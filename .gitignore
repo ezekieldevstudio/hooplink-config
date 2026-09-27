@@ -1,0 +1,14 @@
+# Secrets and signing material
+.env
+.env.*
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+signing.properties
+credentials.json
+keys/
+secrets/

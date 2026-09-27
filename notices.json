@@ -3,8 +3,8 @@
   "items": [
     {
       "id": "notice-001",
-      "title": "Hooplink 문의 안내",
-      "body": "Hooplink 관련 문의는 ezekieldevstudio@gmail.com으로 보내주세요.",
+      "title": "HoopLink 문의 안내",
+      "body": "HoopLink 관련 문의는 ezekieldevstudio@gmail.com으로 보내주세요.",
       "publishedAt": "2026-09-24",
       "pinned": true,
       "enabled": true
