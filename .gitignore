@@ -1,5 +1,4 @@
 # Secrets and signing material
-.env
 .env.*
 *.jks
 *.keystore
@@ -12,3 +11,14 @@ signing.properties
 credentials.json
 keys/
 secrets/
+
+# Secrets stay in C:/dev/EzekielDev/keys/<project>/; prevent accidental commits.
+*service-account*.json
+serviceAccount*.json
+*service_role*
+*service-role*
+*secret*.json
+*secret*.env
+
+# Only public client settings belong in the root .env.
+!/.env
