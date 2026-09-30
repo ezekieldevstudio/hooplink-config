@@ -1,12 +1,76 @@
 {
-  "version": 1,
+  "version": 2,
   "items": [
     {
       "id": "faq-001",
       "category": "문의",
-      "question": "HoopLink 관련 문의는 어디로 보내나요?",
-      "answer": "ezekieldevstudio@gmail.com으로 문의해 주세요. 문제 상황과 사용 중인 앱 버전, 기기 종류를 알려주시면 도움이 됩니다. 비밀번호나 로그인 인증 코드는 보내지 마세요.",
+      "question": "How can I contact HoopLink support?",
+      "answer": "Email ezekieldevstudio@gmail.com with the issue, app version and device type. Do not send passwords or login codes.",
       "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "help-1",
+      "category": "How to Use",
+      "question": "How do I start a Quick Game?",
+      "answer": "Choose Quick Game, team names, 1–90 periods and 1–90 minutes. Starting scores default to 0:0. Tap Start Game.",
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "help-2",
+      "category": "How to Use",
+      "question": "How do scores and clocks work?",
+      "answer": "Use +1, +2, +3 or −1 for scores. Start and stop each clock, adjust time, or reset the shot clock to 14 or 24. Reaching 0:00 does not end the game.",
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "help-3",
+      "category": "How to Use",
+      "question": "What does Reset Game do?",
+      "answer": "Quick Game returns to its starting scores, first period and selected time. Session resets only the current matchup. Clocks stop and the shot clock returns to 24. Saved results stay unchanged.",
+      "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "help-4",
+      "category": "How to Use",
+      "question": "Can I leave and continue later?",
+      "answer": "Yes. Home or Back saves progress without finalizing results. Use Continue Game or Continue Session after leaving, an app restart or a phone reboot. The latest successful local save is restored.",
+      "order": 5,
+      "enabled": true
+    },
+    {
+      "id": "help-5",
+      "category": "How to Use",
+      "question": "How does a three-team Session work?",
+      "answer": "Teams rotate A–B, A–C, B–C for four periods per matchup, keeping each matchup score. Tap End Period to advance. A full Session records 12 periods.",
+      "order": 6,
+      "enabled": true
+    },
+    {
+      "id": "help-6",
+      "category": "How to Use",
+      "question": "How do I connect a Viewer?",
+      "answer": "Open Invite and share the QR or HTTPS link. Private games require the game code. After joining, choose a display. Viewer timing can briefly differ; use the controller clock as the reference.",
+      "order": 7,
+      "enabled": true
+    },
+    {
+      "id": "help-7",
+      "category": "How to Use",
+      "question": "When are results saved?",
+      "answer": "End Game or End Session saves only periods actually played, including the current period. A completed Session also saves its result. Leaving or a clock reaching zero does not finalize results.",
+      "order": 8,
+      "enabled": true
+    },
+    {
+      "id": "help-8",
+      "category": "How to Use",
+      "question": "How do I share or delete results?",
+      "answer": "Open Game Results from Home and expand a game or Session. Share includes the whole group. Delete removes only that saved result after confirmation; it never deletes a game in progress.",
+      "order": 9,
       "enabled": true
     }
   ]
