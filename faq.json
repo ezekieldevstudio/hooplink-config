@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "items": [
     {
       "id": "faq-001",
@@ -29,7 +29,7 @@
       "id": "help-3",
       "category": "How to Use",
       "question": "What does Reset Game do?",
-      "answer": "Quick Game returns to its starting scores, first period and selected time. Session resets only the current matchup. Clocks stop and the shot clock returns to 24. Saved results stay unchanged.",
+      "answer": "Quick Game returns to its starting scores, first period and selected time. Session resets only the current matchup. Clocks stop and the shot clock returns to 24. Completed period records stay unchanged.",
       "order": 4,
       "enabled": true
     },
@@ -61,7 +61,7 @@
       "id": "help-7",
       "category": "How to Use",
       "question": "When are results saved?",
-      "answer": "End Game or End Session saves only periods actually played, including the current period. A completed Session also saves its result. Leaving or a clock reaching zero does not finalize results.",
+      "answer": "The first Game Clock Start records the starting score and time. End Period or End Game records the end. End Session keeps completed periods only. Leaving or 0:00 does not finalize results.",
       "order": 8,
       "enabled": true
     },
