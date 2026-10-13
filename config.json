@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T00:00:00Z",
+  "updatedAt": "2026-10-13T00:00:00Z",
   "app": {
-    "name": "HoopLink",
+    "name": "HoopView",
     "minVersion": "1.0.0",
     "latestVersion": "1.0.0",
     "maintenanceMode": false
@@ -12,7 +12,7 @@
     "faq": true
   },
   "content": {
-    "notices": { "version": 1, "file": "notices.json" },
-    "faq": { "version": 3, "file": "faq.json" }
+    "notices": { "version": 2, "file": "notices.json" },
+    "faq": { "version": 4, "file": "faq.json" }
   }
 }

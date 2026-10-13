@@ -1,10 +1,10 @@
 {
-  "version": 3,
+  "version": 4,
   "items": [
     {
       "id": "faq-001",
       "category": "문의",
-      "question": "How can I contact HoopLink support?",
+      "question": "How can I contact HoopView support?",
       "answer": "Email ezekieldevstudio@gmail.com with the issue, app version and device type. Do not send passwords or login codes.",
       "order": 1,
       "enabled": true
