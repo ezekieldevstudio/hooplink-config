@@ -1,5 +1,33 @@
 # HoopView Config
 
+## 최신 관리 현황 — 2026-10-14
+
+- 앱: HoopView / com.ezekiel.hooplink / 앱 프로젝트: hooplink
+- 로컬 경로: C:\dev\EzekielDev\hooplink-config
+- 앱 단계: 출시 후보 검증 보고 / 프로덕션 액세스 승인 대기
+- Play: 1.0.1 / code 2 · 비공개 Alpha(사용자 확인)
+- 소스/native: 1.0.2 / 3 (세부 불일치·목표는 앱 README 참고)
+
+### 공개 파일과 운영
+
+config.json, faq.json, notices.json, privacy-policy.html, viewer/
+
+10/14 b344e53 배포 및 config/FAQ/notices/Privacy/Viewer HTML·JS 200/로컬 일치 완료 보고. 현재 로컬 파일과 Git 확인, 서버 재호출 없음. 공개 정적 파일용 저장소이며 앱 package/versionCode와 별도의 콘텐츠 형식을 유지한다. Secret·서명 파일·사용자 기록을 넣지 않는다.
+
+### 현재 문제 / 다음 작업
+
+실제 Supabase 참가·다기기 복구는 정적 파일 게시 검증과 별도. 이미 완료한 Pages 설정·정책 게시를 다시 수행하지 않는다.
+
+### 개발 및 변경 이력 — 최신 날짜순
+
+2026-10-14 Viewer 출시 후보 배포 b344e53. 2026-10-13 HoopView 브랜드 변경.
+
+기존 JSON·정책 본문은 이번에 수정하지 않았다. 로컬 Git만으로 원격 게시 완료를 선언하지 않는다. [앱 최신 README](../hooplink/README.md)에서 빌드·테스트·실기기 상태와 다음 작업을 함께 관리한다.
+
+## 기존 운영 안내 및 작성 당시 기록
+
+이하 게시 전/미구현 표현은 작성 당시 기록이다. 현재 상태는 상단을 우선한다.
+
 HoopView용 공개 정적 설정 저장소입니다. 설치나 빌드 과정이 없습니다.
 
 ## 파일
