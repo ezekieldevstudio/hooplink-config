@@ -1,11 +1,11 @@
 # HoopView Config
 
-## 최신 관리 현황 — 2026-10-14
+## 최신 관리 현황 — 2026-10-15
 
 - 앱: HoopView / com.ezekiel.hooplink / 앱 프로젝트: hooplink
 - 로컬 경로: C:\dev\EzekielDev\hooplink-config
-- 앱 단계: 출시 후보 검증 보고 / 프로덕션 액세스 승인 대기
-- Play: 1.0.1 / code 2 · 비공개 Alpha(사용자 확인)
+- 앱 단계: 프로덕션 액세스 승인 완료 / 1.0.2 프로덕션 Google 검토 중
+- Play: 1.0.2 / code 3 · 프로덕션 제출, Google 검토 중. 이전 Alpha 1.0.1 / code 2
 - 소스/native: 1.0.2 / 3 (세부 불일치·목표는 앱 README 참고)
 
 ### 공개 파일과 운영
@@ -19,6 +19,8 @@ config.json, faq.json, notices.json, privacy-policy.html, viewer/
 실제 Supabase 참가·다기기 복구는 정적 파일 게시 검증과 별도. 이미 완료한 Pages 설정·정책 게시를 다시 수행하지 않는다.
 
 ### 개발 및 변경 이력 — 최신 날짜순
+
+2026-10-15 사용자 제출/심사 상태와 앱 README 동기화. 공개 JSON·정책 내용 및 배포 상태는 새로 검증하지 않았다.
 
 2026-10-14 Viewer 출시 후보 배포 b344e53. 2026-10-13 HoopView 브랜드 변경.
 
